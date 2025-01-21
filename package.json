@@ -6,7 +6,6 @@
   "files": [
     "./dist"
   ],
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/MattGould1/teller-anomalies"
@@ -57,6 +56,7 @@
   },
   "packageManager": "yarn@4.2.2",
   "dependencies": {
-    "node-teller": "^0.1.0"
+    "dotenv": "^16.4.7",
+    "node-teller": "0.1.5"
   }
 }

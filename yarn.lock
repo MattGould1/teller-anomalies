@@ -2825,6 +2825,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^16.4.7":
+  version: 16.4.7
+  resolution: "dotenv@npm:16.4.7"
+  checksum: 10/f13bfe97db88f0df4ec505eeffb8925ec51f2d56a3d0b6d916964d8b4af494e6fb1633ba5d09089b552e77ab2a25de58d70259b2c5ed45ec148221835fc99a0c
+  languageName: node
+  linkType: hard
+
 "eastasianwidth@npm:^0.2.0":
   version: 0.2.0
   resolution: "eastasianwidth@npm:0.2.0"
@@ -4447,11 +4454,12 @@ __metadata:
     "@types/node": "npm:20.17.12"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
+    dotenv: "npm:^16.4.7"
     esbuild: "npm:0.21.3"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:9.1.0"
     jest: "npm:29.7.0"
-    node-teller: "npm:^0.1.0"
+    node-teller: "npm:0.1.5"
     nodemon: "npm:3.1.9"
     prettier: "npm:3.4.2"
     rimraf: "npm:5.0.10"
@@ -4674,12 +4682,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-teller@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "node-teller@npm:0.1.0"
+"node-teller@npm:0.1.5":
+  version: 0.1.5
+  resolution: "node-teller@npm:0.1.5"
   dependencies:
     axios: "npm:^1.7.7"
-  checksum: 10/4324757eaaf831491016d273d7aeebae45e2b6dbb0d3415da70d25d3e0bfd5843ac6150ee662d9ae1a7a9ce975d4d77e1a0702bfe6e2a6c995ef65a6505af96b
+  checksum: 10/b0a9e93c74d4c1e33c53d378ca28acab5f5fdb61af1b90ee5c9dd78bd4edce597c346049dba2c152cecf8845eb80d87bdaef267a6878c90a9eb22bf70cd7ff8a
   languageName: node
   linkType: hard
 

@@ -1,0 +1,2422 @@
+[
+  {
+    "type": "ach",
+    "status": "pending",
+    "running_balance": null,
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q000",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q000",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WATER SUPPLY COMPANY"
+      },
+      "category": "utilities"
+    },
+    "description": "Monthly Water Bill",
+    "date": "2025-01-21",
+    "amount": "-47.91",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "38169.74",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q001",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q001",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2025-01-20",
+    "amount": "-32.02",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "38201.76",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q002",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q002",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SQUARE"
+      },
+      "category": "service"
+    },
+    "description": "Point of Sale - Monthly",
+    "date": "2025-01-18",
+    "amount": "-28.88",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "38230.64",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q003",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q003",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CARDTRONICS"
+      },
+      "category": "service"
+    },
+    "description": "ATM Withdrawal",
+    "date": "2025-01-16",
+    "amount": "-52.29",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "38282.93",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q004",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q004",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2025-01-14",
+    "amount": "45.39",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "38237.54",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q005",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q005",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MAC"
+      },
+      "category": "shopping"
+    },
+    "description": "MAC",
+    "date": "2025-01-13",
+    "amount": "-110.14",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "38347.68",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q006",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q006",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WATER SUPPLY COMPANY"
+      },
+      "category": "utilities"
+    },
+    "description": "Monthly Water Bill",
+    "date": "2025-01-12",
+    "amount": "-73.73",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "38421.41",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl0h7b9nbvv1q007",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl0h7b9nbvv1q007",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SQUARE"
+      },
+      "category": "service"
+    },
+    "description": "Point of Sale - Monthly",
+    "date": "2025-01-12",
+    "amount": "-47.27",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "38468.68",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q000",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q000",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "VERIZON WIRELESS"
+      },
+      "category": "phone"
+    },
+    "description": "Verizon Wireless",
+    "date": "2025-01-11",
+    "amount": "-43.92",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "38512.60",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q001",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q001",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CARDTRONICS"
+      },
+      "category": "service"
+    },
+    "description": "ATM Withdrawal",
+    "date": "2025-01-11",
+    "amount": "-108.79",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "bill_payment",
+    "status": "posted",
+    "running_balance": "38621.39",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q002",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q002",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AT&T WIRELESS"
+      },
+      "category": "phone"
+    },
+    "description": "AT&T Company Contract",
+    "date": "2025-01-11",
+    "amount": "-34.75",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "38656.14",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q003",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q003",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "LOUISE BENTLEY"
+      },
+      "category": "service"
+    },
+    "description": "Venmo Payment",
+    "date": "2025-01-10",
+    "amount": "-80.28",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "interest",
+    "status": "posted",
+    "running_balance": "38736.42",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q004",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q004",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WORLD BANK"
+      },
+      "category": "service"
+    },
+    "description": "Interest Earned",
+    "date": "2025-01-10",
+    "amount": "122.73",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "38613.69",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q005",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q005",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SMILE SOFTWARE HOUSE"
+      },
+      "category": "software"
+    },
+    "description": "E-Commerce Website Project",
+    "date": "2025-01-10",
+    "amount": "-46.65",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "38660.34",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q006",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q006",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "VERIZON WIRELESS"
+      },
+      "category": "phone"
+    },
+    "description": "Verizon Wireless",
+    "date": "2025-01-09",
+    "amount": "-74.54",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "check",
+    "status": "posted",
+    "running_balance": "38734.88",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q007",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q007",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "MARK SIMMONS"
+      },
+      "category": "general"
+    },
+    "description": "Check #078",
+    "date": "2025-01-08",
+    "amount": "-115.07",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "38849.95",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q008",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q008",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "SAM BLOCK"
+      },
+      "category": "general"
+    },
+    "description": "Zelle Payment",
+    "date": "2025-01-07",
+    "amount": "-74.66",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "fee",
+    "status": "posted",
+    "running_balance": "38924.61",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q009",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q009",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF ALL"
+      },
+      "category": "general"
+    },
+    "description": "Insufficient Funds Fee",
+    "date": "2025-01-06",
+    "amount": "-62.58",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "38987.19",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00a",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00a",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CARDTRONICS"
+      },
+      "category": "service"
+    },
+    "description": "ATM Withdrawal",
+    "date": "2025-01-05",
+    "amount": "-103.52",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "withdrawal",
+    "status": "posted",
+    "running_balance": "39090.71",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00b",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00b",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF THE WEST"
+      },
+      "category": "service"
+    },
+    "description": "Electronic Withdrawal",
+    "date": "2025-01-05",
+    "amount": "-19.76",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "39110.47",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00c",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00c",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "SAM BLOCK"
+      },
+      "category": "general"
+    },
+    "description": "Zelle Payment",
+    "date": "2025-01-04",
+    "amount": "-72.44",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "39182.91",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00d",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00d",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AB LOGISTICS"
+      },
+      "category": "transportation"
+    },
+    "description": "Zelle Payment",
+    "date": "2025-01-04",
+    "amount": "-66.28",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "39249.19",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00e",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00e",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "HOTEL TONIGHT"
+      },
+      "category": "accommodation"
+    },
+    "description": "Hotel Tonight",
+    "date": "2025-01-03",
+    "amount": "-107.94",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "39357.13",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00f",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00f",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "SAM BLOCK"
+      },
+      "category": "general"
+    },
+    "description": "Zelle Payment",
+    "date": "2025-01-02",
+    "amount": "-62.88",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "interest",
+    "status": "posted",
+    "running_balance": "39420.01",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00g",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00g",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AMERICAN EXPRESS"
+      },
+      "category": "service"
+    },
+    "description": "Interest Payment",
+    "date": "2025-01-02",
+    "amount": "-81.85",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "39501.86",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00h",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00h",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SMILE SOFTWARE HOUSE"
+      },
+      "category": "software"
+    },
+    "description": "E-Commerce Website Project",
+    "date": "2025-01-01",
+    "amount": "-112.37",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "transfer",
+    "status": "posted",
+    "running_balance": "39614.23",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00i",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00i",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "YOURSELF"
+      },
+      "category": "general"
+    },
+    "description": "Transfer to Checking",
+    "date": "2025-01-01",
+    "amount": "-26.07",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "39640.30",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00j",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00j",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AB LOGISTICS"
+      },
+      "category": "transportation"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-12-30",
+    "amount": "-118.73",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "wire",
+    "status": "posted",
+    "running_balance": "39759.03",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00k",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00k",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "JAMES ARDEN"
+      },
+      "category": "general"
+    },
+    "description": "Domestic Wire",
+    "date": "2024-12-29",
+    "amount": "-109.00",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "39868.03",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00l",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00l",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "SAM BLOCK"
+      },
+      "category": "general"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-12-28",
+    "amount": "-114.82",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "wire",
+    "status": "posted",
+    "running_balance": "39982.85",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00m",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00m",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "JAMES ARDEN"
+      },
+      "category": "general"
+    },
+    "description": "Domestic Wire",
+    "date": "2024-12-27",
+    "amount": "-99.17",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40082.02",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00n",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00n",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "LYFT"
+      },
+      "category": "transportation"
+    },
+    "description": "Lyft",
+    "date": "2024-12-27",
+    "amount": "-61.65",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "transfer",
+    "status": "posted",
+    "running_balance": "40143.67",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00o",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00o",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "YOURSELF"
+      },
+      "category": "general"
+    },
+    "description": "Recurring Transfer to Savings",
+    "date": "2024-12-27",
+    "amount": "-7.08",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40150.75",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00p",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00p",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "FIVE GUYS"
+      },
+      "category": "dining"
+    },
+    "description": "Five Guys",
+    "date": "2024-12-26",
+    "amount": "-31.14",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "charge",
+    "status": "posted",
+    "running_balance": "40181.89",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00q",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00q",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF EURASIA"
+      },
+      "category": "service"
+    },
+    "description": "Service Charge",
+    "date": "2024-12-25",
+    "amount": "-107.05",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40288.94",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00r",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00r",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EXXON MOBIL"
+      },
+      "category": "fuel"
+    },
+    "description": "Exxon Mobil",
+    "date": "2024-12-24",
+    "amount": "-72.99",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "interest",
+    "status": "posted",
+    "running_balance": "40361.93",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00s",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00s",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WORLD BANK"
+      },
+      "category": "service"
+    },
+    "description": "Interest Earned",
+    "date": "2024-12-23",
+    "amount": "64.75",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40297.18",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00t",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00t",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WINGSTOP"
+      },
+      "category": "dining"
+    },
+    "description": "Wingstop",
+    "date": "2024-12-23",
+    "amount": "-92.55",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "transfer",
+    "status": "posted",
+    "running_balance": "40389.73",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00u",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00u",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "YOURSELF"
+      },
+      "category": "general"
+    },
+    "description": "Recurring Transfer to Savings",
+    "date": "2024-12-20",
+    "amount": "-87.47",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "40477.20",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q00v",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q00v",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "JOHN SMITH"
+      },
+      "category": "accommodation"
+    },
+    "description": "Monthtly Rental",
+    "date": "2024-12-19",
+    "amount": "82.87",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "40394.33",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q010",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q010",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2024-12-18",
+    "amount": "-24.69",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "40419.02",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q011",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q011",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CARDTRONICS"
+      },
+      "category": "service"
+    },
+    "description": "ATM Withdrawal",
+    "date": "2024-12-18",
+    "amount": "-30.96",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "bill_payment",
+    "status": "posted",
+    "running_balance": "40449.98",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl117b9nbvv1q012",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl117b9nbvv1q012",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AT&T WIRELESS"
+      },
+      "category": "phone"
+    },
+    "description": "AT&T Company Contract",
+    "date": "2024-12-17",
+    "amount": "-98.41",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "withdrawal",
+    "status": "posted",
+    "running_balance": "40548.39",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q000",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q000",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF THE WEST"
+      },
+      "category": "service"
+    },
+    "description": "Electronic Withdrawal",
+    "date": "2024-12-16",
+    "amount": "-82.65",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "check",
+    "status": "posted",
+    "running_balance": "40631.04",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q001",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q001",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF MANY"
+      },
+      "category": "general"
+    },
+    "description": "Online Check Deposit",
+    "date": "2024-12-16",
+    "amount": "47.74",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "transfer",
+    "status": "posted",
+    "running_balance": "40583.30",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q002",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q002",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "YOURSELF"
+      },
+      "category": "general"
+    },
+    "description": "Transfer to Checking",
+    "date": "2024-12-16",
+    "amount": "-18.93",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40602.23",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q003",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q003",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "TJ MAXX"
+      },
+      "category": "shopping"
+    },
+    "description": "TJ Maxx",
+    "date": "2024-12-15",
+    "amount": "-86.74",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "40688.97",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q004",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q004",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-12-12",
+    "amount": "50.06",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "40638.91",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q005",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q005",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AB LOGISTICS"
+      },
+      "category": "transportation"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-12-12",
+    "amount": "-56.50",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "40695.41",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q006",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q006",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CENTURYLINK"
+      },
+      "category": "phone"
+    },
+    "description": "Century Link",
+    "date": "2024-12-12",
+    "amount": "-7.40",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "40702.81",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q007",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q007",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2024-12-11",
+    "amount": "-11.40",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40714.21",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q008",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q008",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "VERIZON WIRELESS"
+      },
+      "category": "phone"
+    },
+    "description": "Verizon Wireless",
+    "date": "2024-12-10",
+    "amount": "-116.63",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "transfer",
+    "status": "posted",
+    "running_balance": "40830.84",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q009",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q009",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "YOURSELF"
+      },
+      "category": "general"
+    },
+    "description": "Recurring Transfer to Savings",
+    "date": "2024-12-10",
+    "amount": "-46.49",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40877.33",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00a",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00a",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "TJ MAXX"
+      },
+      "category": "shopping"
+    },
+    "description": "TJ Maxx",
+    "date": "2024-12-10",
+    "amount": "-102.28",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "40979.61",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00b",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00b",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "IN-N-OUT BURGER"
+      },
+      "category": "dining"
+    },
+    "description": "In-N-Out Burger",
+    "date": "2024-12-09",
+    "amount": "-20.79",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "41000.40",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00c",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00c",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SMILE SOFTWARE HOUSE"
+      },
+      "category": "software"
+    },
+    "description": "E-Commerce Website Project",
+    "date": "2024-12-09",
+    "amount": "-12.49",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41012.89",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00d",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00d",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "ATM WORLDWIDE"
+      },
+      "category": "service"
+    },
+    "description": "External ATM Cash",
+    "date": "2024-12-09",
+    "amount": "-83.96",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "withdrawal",
+    "status": "posted",
+    "running_balance": "41096.85",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00e",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00e",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF THE WEST"
+      },
+      "category": "service"
+    },
+    "description": "Electronic Withdrawal",
+    "date": "2024-12-08",
+    "amount": "-123.76",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41220.61",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00f",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00f",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SEARS"
+      },
+      "category": "shopping"
+    },
+    "description": "Sears",
+    "date": "2024-12-08",
+    "amount": "-83.04",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41303.65",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00g",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00g",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "ATM WORLDWIDE"
+      },
+      "category": "service"
+    },
+    "description": "External ATM Cash",
+    "date": "2024-12-08",
+    "amount": "-111.16",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41414.81",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00h",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00h",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MAGNA BANK"
+      },
+      "category": "service"
+    },
+    "description": "ATM Deposit",
+    "date": "2024-12-07",
+    "amount": "81.61",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "41333.20",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00i",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00i",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "SAM BLOCK"
+      },
+      "category": "general"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-12-06",
+    "amount": "-68.67",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41401.87",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00j",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00j",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "NEIMAN MARCUS"
+      },
+      "category": "shopping"
+    },
+    "description": "Neiman Marcus",
+    "date": "2024-12-05",
+    "amount": "-52.49",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "41454.36",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00k",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00k",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2024-12-05",
+    "amount": "-26.29",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "41480.65",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00l",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00l",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "LOUISE BENTLEY"
+      },
+      "category": "service"
+    },
+    "description": "Venmo Payment",
+    "date": "2024-12-05",
+    "amount": "-85.36",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "41566.01",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00m",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00m",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-12-03",
+    "amount": "96.85",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "withdrawal",
+    "status": "posted",
+    "running_balance": "41469.16",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00n",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00n",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EASY PAY"
+      },
+      "category": "service"
+    },
+    "description": "Cash Withdrawal",
+    "date": "2024-12-02",
+    "amount": "-85.92",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41555.08",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00o",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00o",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CARDTRONICS"
+      },
+      "category": "service"
+    },
+    "description": "ATM Withdrawal",
+    "date": "2024-12-01",
+    "amount": "-90.25",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "withdrawal",
+    "status": "posted",
+    "running_balance": "41645.33",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00p",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00p",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EASY PAY"
+      },
+      "category": "service"
+    },
+    "description": "Cash Withdrawal",
+    "date": "2024-12-01",
+    "amount": "-112.63",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41757.96",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00q",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00q",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SUBWAY"
+      },
+      "category": "dining"
+    },
+    "description": "Subway",
+    "date": "2024-11-30",
+    "amount": "-32.26",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "check",
+    "status": "posted",
+    "running_balance": "41790.22",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00r",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00r",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "MARK SIMMONS"
+      },
+      "category": "general"
+    },
+    "description": "Check #078",
+    "date": "2024-11-30",
+    "amount": "-44.15",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41834.37",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00s",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00s",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CARDTRONICS"
+      },
+      "category": "service"
+    },
+    "description": "ATM Withdrawal",
+    "date": "2024-11-30",
+    "amount": "-50.72",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41885.09",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00t",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00t",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SLIM CHICKENS"
+      },
+      "category": "dining"
+    },
+    "description": "Slim Chickens",
+    "date": "2024-11-29",
+    "amount": "-89.27",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41974.36",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00u",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00u",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MAGNA BANK"
+      },
+      "category": "service"
+    },
+    "description": "ATM Deposit",
+    "date": "2024-11-28",
+    "amount": "36.06",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "atm",
+    "status": "posted",
+    "running_balance": "41938.30",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q00v",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q00v",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "ATM WORLDWIDE"
+      },
+      "category": "service"
+    },
+    "description": "External ATM Cash",
+    "date": "2024-11-27",
+    "amount": "-24.41",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "41962.71",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q010",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q010",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-11-26",
+    "amount": "95.41",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41867.30",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q011",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q011",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SEARS"
+      },
+      "category": "shopping"
+    },
+    "description": "Sears",
+    "date": "2024-11-24",
+    "amount": "-84.33",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41951.63",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q012",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q012",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CHIPOTLE MEXICAN GRILL"
+      },
+      "category": "dining"
+    },
+    "description": "Chipotle Mexican Grill",
+    "date": "2024-11-22",
+    "amount": "-58.56",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "adjustment",
+    "status": "posted",
+    "running_balance": "42010.19",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q013",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q013",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "THE HOME DEPOT"
+      },
+      "category": "home"
+    },
+    "description": "Refund",
+    "date": "2024-11-21",
+    "amount": "81.42",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "withdrawal",
+    "status": "posted",
+    "running_balance": "41928.77",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q014",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q014",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "BANK OF THE WEST"
+      },
+      "category": "service"
+    },
+    "description": "Electronic Withdrawal",
+    "date": "2024-11-20",
+    "amount": "-23.20",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "41951.97",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q015",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q015",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-11-19",
+    "amount": "16.85",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41935.12",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q016",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q016",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "7-ELEVEN"
+      },
+      "category": "groceries"
+    },
+    "description": "7-Eleven",
+    "date": "2024-11-18",
+    "amount": "-39.12",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "41974.24",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q017",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q017",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CVS"
+      },
+      "category": "health"
+    },
+    "description": "CVS",
+    "date": "2024-11-18",
+    "amount": "-71.28",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "bill_payment",
+    "status": "posted",
+    "running_balance": "42045.52",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q018",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q018",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "TOYOTA"
+      },
+      "category": "service"
+    },
+    "description": "Toyota Financial Services",
+    "date": "2024-11-17",
+    "amount": "-114.43",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "bill_payment",
+    "status": "posted",
+    "running_balance": "42159.95",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q019",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q019",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AT&T WIRELESS"
+      },
+      "category": "phone"
+    },
+    "description": "AT&T Company Contract",
+    "date": "2024-11-16",
+    "amount": "-114.20",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "42274.15",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q01a",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q01a",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2024-11-14",
+    "amount": "-55.52",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "42274.15",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl1h7b9nbvv1q01a",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl1h7b9nbvv1q05r",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2024-11-14",
+    "amount": "-55.52",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "bill_payment",
+    "status": "posted",
+    "running_balance": "42329.67",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q000",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q000",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AMERICAN EXPRESS"
+      },
+      "category": "service"
+    },
+    "description": "American Express Platinum Card",
+    "date": "2024-11-13",
+    "amount": "-22.60",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "42352.27",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q001",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q001",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "THE HOME DEPOT"
+      },
+      "category": "home"
+    },
+    "description": "The Home Depot",
+    "date": "2024-11-12",
+    "amount": "-112.31",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "42464.58",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q002",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q002",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-11-12",
+    "amount": "89.92",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "42374.66",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q003",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q003",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CENTURYLINK"
+      },
+      "category": "phone"
+    },
+    "description": "Century Link",
+    "date": "2024-11-10",
+    "amount": "-87.12",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "42461.78",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q004",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q004",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "SQUARE"
+      },
+      "category": "service"
+    },
+    "description": "Point of Sale - Monthly",
+    "date": "2024-11-10",
+    "amount": "-81.51",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "42543.29",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q005",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q005",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-11-09",
+    "amount": "6.50",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "42536.79",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q006",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q006",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CENTURYLINK"
+      },
+      "category": "phone"
+    },
+    "description": "Century Link",
+    "date": "2024-11-09",
+    "amount": "-94.12",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "42630.91",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q007",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q007",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-11-07",
+    "amount": "69.14",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "42561.77",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q008",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q008",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-11-06",
+    "amount": "69.66",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "adjustment",
+    "status": "posted",
+    "running_balance": "42492.11",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q009",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q009",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "THE HOME DEPOT"
+      },
+      "category": "home"
+    },
+    "description": "Refund",
+    "date": "2024-11-06",
+    "amount": "43.79",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "42448.32",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00a",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00a",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "LOUISE BENTLEY"
+      },
+      "category": "service"
+    },
+    "description": "Venmo Payment",
+    "date": "2024-11-06",
+    "amount": "-80.39",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "42528.71",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00b",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00b",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AB LOGISTICS"
+      },
+      "category": "transportation"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-11-03",
+    "amount": "-101.10",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "42629.81",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00c",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00c",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "person",
+        "name": "SAM BLOCK"
+      },
+      "category": "general"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-10-31",
+    "amount": "-62.27",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "payment",
+    "status": "posted",
+    "running_balance": "42692.08",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00d",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00d",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AB LOGISTICS"
+      },
+      "category": "transportation"
+    },
+    "description": "Zelle Payment",
+    "date": "2024-10-31",
+    "amount": "-67.02",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "42759.10",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00e",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00e",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "STAPLES"
+      },
+      "category": "office"
+    },
+    "description": "Staples",
+    "date": "2024-10-30",
+    "amount": "-65.71",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "deposit",
+    "status": "posted",
+    "running_balance": "42824.81",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00f",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00f",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "MEGA BANK"
+      },
+      "category": "general"
+    },
+    "description": "Cash Deposit",
+    "date": "2024-10-29",
+    "amount": "39.79",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "42785.02",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00g",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00g",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "J.C. PENNEY"
+      },
+      "category": "shopping"
+    },
+    "description": "J.C. Penney",
+    "date": "2024-10-28",
+    "amount": "-114.45",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "adjustment",
+    "status": "posted",
+    "running_balance": "42899.47",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00h",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00h",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WALMART"
+      },
+      "category": "groceries"
+    },
+    "description": "Purchase Return",
+    "date": "2024-10-28",
+    "amount": "51.51",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "digital_payment",
+    "status": "posted",
+    "running_balance": "42847.96",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00i",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00i",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "EBAY"
+      },
+      "category": "shopping"
+    },
+    "description": "PayPal Purchase",
+    "date": "2024-10-28",
+    "amount": "-25.82",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "ach",
+    "status": "posted",
+    "running_balance": "42873.78",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00j",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00j",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "CENTURYLINK"
+      },
+      "category": "phone"
+    },
+    "description": "Century Link",
+    "date": "2024-10-27",
+    "amount": "-66.28",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "bill_payment",
+    "status": "posted",
+    "running_balance": "42940.06",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00k",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00k",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "TOYOTA"
+      },
+      "category": "service"
+    },
+    "description": "Toyota Financial Services",
+    "date": "2024-10-26",
+    "amount": "-123.48",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "adjustment",
+    "status": "posted",
+    "running_balance": "43063.54",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00l",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00l",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "WALMART"
+      },
+      "category": "groceries"
+    },
+    "description": "Purchase Return",
+    "date": "2024-10-25",
+    "amount": "116.21",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  },
+  {
+    "type": "card_payment",
+    "status": "posted",
+    "running_balance": "42947.33",
+    "links": {
+      "self": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000/transactions/txn_p91q5hl217b9nbvv1q00m",
+      "account": "https://api.teller.io/accounts/acc_p91pnt0nkfsfbkdc0q000"
+    },
+    "id": "txn_p91q5hl217b9nbvv1q00m",
+    "details": {
+      "processing_status": "complete",
+      "counterparty": {
+        "type": "organization",
+        "name": "AMC METREON"
+      },
+      "category": "entertainment"
+    },
+    "description": "AMC Metreon",
+    "date": "2024-10-24",
+    "amount": "-70.67",
+    "account_id": "acc_p91pnt0nkfsfbkdc0q000"
+  }
+]

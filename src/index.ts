@@ -1,17 +1,24 @@
-import { TellerClient } from 'node-teller';
+import type {
+  AnomalyScore,
+  TellerTransaction,
+  UserTransactionSettings,
+} from "./types/transaction";
+import calculateSingleTransactionAnomalyScore from "./lib/calculateSingleTransactionAnomalyScore";
 
-const main = async () => {
-  const client = new TellerClient({
-    token: process.env.TELLER_TOKEN,
+const getTransactionAnomalyScore = ({
+  userSettings,
+  transaction,
+  transactionHistory,
+}: {
+  userSettings?: UserTransactionSettings;
+  transaction: TellerTransaction;
+  transactionHistory: TellerTransaction[];
+}): AnomalyScore => {
+  return calculateSingleTransactionAnomalyScore({
+    userSettings,
+    transaction,
+    history: transactionHistory,
   });
+};
 
-  try {
-    const transactions = await client.transactions.list();
-    console.log('Transactions:', transactions);
-  } catch (error) {
-    console.error('Error fetching transactions:', error);
-  }
-
-}
-
-main();
+export default getTransactionAnomalyScore;
