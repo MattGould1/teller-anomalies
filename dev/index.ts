@@ -22,33 +22,37 @@ const main = async () => {
     if (identities[0] === undefined) {
       throw new Error("No identities found");
     }
-    const accountId = identities[0].account.id;
 
-    const transactions = await client.transactions.list(accountId, {
-      count: 1000,
-      accessToken,
-    });
+    for (const identity of identities) {
+      const accountId = identity.account.id;
 
-    const latestTransaction = transactions.pop();
+      // eslint-disable-next-line no-await-in-loop
+      const transactions = await client.transactions.list(accountId, {
+        count: 1000,
+        accessToken,
+      });
 
-    if (latestTransaction === undefined) {
-      console.log("No transactions found");
-      return;
+      const latestTransaction = transactions.pop();
+
+      if (latestTransaction === undefined) {
+        console.log("No transactions found");
+        return;
+      }
+
+      const anomalyScore = getTransactionAnomalyScore({
+        userSettings: {
+          frequencyWindowHours: 0.1,
+          maxFrequencyThreshold: 10,
+          amountThresholdMultiplier: 0.5,
+          amountAnomalyScore: 0.5,
+          frequencyAnomalyScore: 0.5,
+        },
+        transaction: latestTransaction,
+        transactionHistory: transactions,
+      });
+
+      console.log(anomalyScore);
     }
-
-    const anomalyScore = getTransactionAnomalyScore({
-      userSettings: {
-        frequencyWindowHours: 0.1,
-        maxFrequencyThreshold: 10,
-        amountThresholdMultiplier: 0.5,
-        amountAnomalyScore: 0.5,
-        frequencyAnomalyScore: 0.5,
-      },
-      transaction: latestTransaction,
-      transactionHistory: transactions,
-    });
-
-    console.log(anomalyScore);
   } catch (error) {
     console.error("Error fetching identity:", error);
   }

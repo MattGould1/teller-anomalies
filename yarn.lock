@@ -4441,32 +4441,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"maxint-anomalies@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "maxint-anomalies@workspace:."
-  dependencies:
-    "@babel/core": "npm:7.26.0"
-    "@babel/preset-env": "npm:7.26.0"
-    "@babel/preset-typescript": "npm:7.26.0"
-    "@jest/globals": "npm:29.7.0"
-    "@tsconfig/node20": "npm:20.1.4"
-    "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:20.17.12"
-    "@typescript-eslint/eslint-plugin": "npm:6.21.0"
-    "@typescript-eslint/parser": "npm:6.21.0"
-    dotenv: "npm:^16.4.7"
-    esbuild: "npm:0.21.3"
-    eslint: "npm:8.57.1"
-    eslint-config-prettier: "npm:9.1.0"
-    jest: "npm:29.7.0"
-    node-teller: "npm:0.1.5"
-    nodemon: "npm:3.1.9"
-    prettier: "npm:3.4.2"
-    rimraf: "npm:5.0.10"
-    typescript: "npm:5.7.2"
-  languageName: unknown
-  linkType: soft
-
 "merge-stream@npm:^2.0.0":
   version: 2.0.0
   resolution: "merge-stream@npm:2.0.0"
@@ -5473,6 +5447,32 @@ __metadata:
   checksum: 10/12a2a4fc6dee23e07cc47f1aeb3a14a1afd3f16397e1350036a8f4cdfee8dcac7ef5978337a4e7b2ac2c27a9a6d46388fc2088ea7c80cb6878c814b1425f8ecf
   languageName: node
   linkType: hard
+
+"teller-anomalies@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "teller-anomalies@workspace:."
+  dependencies:
+    "@babel/core": "npm:7.26.0"
+    "@babel/preset-env": "npm:7.26.0"
+    "@babel/preset-typescript": "npm:7.26.0"
+    "@jest/globals": "npm:29.7.0"
+    "@tsconfig/node20": "npm:20.1.4"
+    "@types/jest": "npm:29.5.14"
+    "@types/node": "npm:20.17.12"
+    "@typescript-eslint/eslint-plugin": "npm:6.21.0"
+    "@typescript-eslint/parser": "npm:6.21.0"
+    dotenv: "npm:^16.4.7"
+    esbuild: "npm:0.21.3"
+    eslint: "npm:8.57.1"
+    eslint-config-prettier: "npm:9.1.0"
+    jest: "npm:29.7.0"
+    node-teller: "npm:0.1.5"
+    nodemon: "npm:3.1.9"
+    prettier: "npm:3.4.2"
+    rimraf: "npm:5.0.10"
+    typescript: "npm:5.7.2"
+  languageName: unknown
+  linkType: soft
 
 "test-exclude@npm:^6.0.0":
   version: 6.0.0

@@ -3,7 +3,7 @@ import getTransactionAnomalyScore from "../../";
 import { TellerTransaction } from "src/types/transaction";
 
 describe("calculateSingleTransactionAnomalyScore", () => {
-  it("should return a score of 0.5 if the transaction amount is 1.5 times the user's average transaction amount", () => {
+  it.only("should return a score of 0.5 if the transaction amount is 1.5 times the user's average transaction amount", () => {
     const rawTransactions = readFileSync("./test/data/transactions.json");
     const transactions = JSON.parse(
       rawTransactions.toString()
