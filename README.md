@@ -4,6 +4,32 @@ This is a proof of concept for detecting anomalies in Teller transactions. In de
 
 In production mode, you would want to implement this package using a Webhook to get transaction data in real-time and compare the new transaction to the previous transactions stored in your database.
 
+## Installation
+
+```bash
+yarn add teller-transaction-anomalies
+npm install teller-transaction-anomalies
+```
+
+## Usage
+
+```ts
+import getTransactionAnomalyScore from "teller-transaction-anomalies";
+
+const anomaly = getTransactionAnomalyScore({
+  transaction,
+  transactionHistory,
+  userSettings,
+});
+
+if (anomaly.score > 0) {
+  console.log("Anomaly detected", anomaly.transaction);
+  anomaly.reasons.forEach((reason) => {
+    console.log(reason);
+  });
+}
+```
+
 ## Prerequisites
 
 - A Teller account with your certificate and private key
