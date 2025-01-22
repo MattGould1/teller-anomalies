@@ -50,20 +50,42 @@ export type TellerTransaction = {
 };
 
 export type UserTransactionSettings = {
-  /** The window of time to consider for the same transaction in a given period */
-  frequencyWindowHours: number;
-  /** The maximum number of the same transactions in a given period */
-  maxFrequencyThreshold: number;
   /** The distance between the new transaction and the average transaction amount */
   amountThresholdMultiplier: number;
   /** 0 to 1 */
   amountAnomalyScore: number;
   /** 0 to 1 */
   frequencyAnomalyScore: number;
+  /** The window of time to consider for the same transaction in a given period */
+  frequencyWindowHours: number;
+  /** The maximum number of the same transactions in a given period */
+  maxFrequencyThreshold: number;
+  /** 0 to 1 */
+  timePatternAnomalyScore: number;
+  /** The time of day to consider for the transaction */
+  timePatternWindowHours: [number, number];
+  /** 0 to 1 */
+  roundAmountAnomalyScore: number;
+  /** The amount to consider for the transaction */
+  roundAmountThreshold: number;
+  /** 0 to 1 */
+  velocityAnomalyScore: number;
 };
 
 export type AnomalyScore = {
   transaction: TellerTransaction;
   score: number;
   reasons: string[];
+};
+
+export type DetectAnomalyForSingleTransactionArgs = {
+  transaction: TellerTransaction;
+  transactionHistory: TellerTransaction[];
+  userSettings?: UserTransactionSettings;
+};
+
+export type TransactionAnalysisArgs = {
+  transaction: TellerTransaction;
+  transactionHistory: TellerTransaction[];
+  userSettings: UserTransactionSettings;
 };

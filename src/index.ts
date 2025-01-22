@@ -3,7 +3,7 @@ import type {
   TellerTransaction,
   UserTransactionSettings,
 } from "./types/transaction";
-import calculateSingleTransactionAnomalyScore from "./lib/calculateSingleTransactionAnomalyScore";
+import detectAnomalyForSingleTransaction from "./lib/detectAnomalyForSingleTransaction";
 
 const getTransactionAnomalyScore = ({
   userSettings,
@@ -14,10 +14,10 @@ const getTransactionAnomalyScore = ({
   transaction: TellerTransaction;
   transactionHistory: TellerTransaction[];
 }): AnomalyScore => {
-  return calculateSingleTransactionAnomalyScore({
+  return detectAnomalyForSingleTransaction({
     userSettings,
     transaction,
-    history: transactionHistory,
+    transactionHistory,
   });
 };
 
